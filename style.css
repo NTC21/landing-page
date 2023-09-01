@@ -1,0 +1,270 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+
+.section-one{
+    padding: 0;
+    border: 0;
+    margin: 0;
+    display: flex;
+    flex:1 1 0;
+    flex-direction: column;
+    background-color: hsl(227, 37%, 19%);
+    color:whitesmoke;
+    font-family: 'Roboto';
+    padding:0 80px 80px 80px;
+}
+
+.section-one{
+    display: flex;
+}
+
+.night{
+    font-family: Arial, "Open Sans";
+    font-weight: bolder;
+    font-size: 50px;
+
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 50px;
+    padding-top: 10px;
+
+}
+
+.image-one{
+    min-width: auto;
+    min-height: auto;
+    max-width: 400px;
+    max-height: auto;
+    overflow:hidden;
+}
+
+.header-links ul{
+    gap:20px;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.below-header{
+    width: 1500;
+    display: flex;
+    flex:1 1 0;
+    gap:50px;
+    justify-content: center;
+}
+
+.paragraph{
+    width:400px;
+    display: flex;
+    flex-direction: column;
+    gap:5px
+}
+
+.title {
+    font-family: Arial, 'Montserrat';
+    font-size: 30px;
+    text-decoration:wavy;
+    font-weight: bold;
+}
+
+.signup {
+    display: flex;
+    background: royalblue;
+    border: 1px solid royalblue;
+    color: white;
+    padding:5px;
+    align-self:flex-start;
+    border-radius: 8px;
+    padding: 4px 8px;
+    cursor: pointer;
+}
+
+
+/*Section 2*/
+
+
+.group{
+    display: flex;
+    flex-direction: column;
+}
+
+.section-two {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    background-color: whitesmoke;
+    min-height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+
+}
+
+.section-two .title{
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+.section-two .boxes {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap:50px;
+    padding-bottom: 20px;
+}
+
+.img-two {
+    min-width: auto;
+    min-height: auto;
+    max-width: 250px;
+    max-height: auto;
+    overflow:hidden;
+    border-color: blue;
+    border-radius: 10px;
+}
+
+.subtext {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    padding: 5px 5px;
+}
+
+
+/*Section 3*/
+
+.section-three{
+    background-color: hsl(228, 32%, 34%);
+    min-height: 400px;
+
+}
+
+
+.section-three{
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    border: 0;
+    margin: 0;
+    background-color: lightgray;
+
+}
+
+.content{
+    display: flex;
+    min-width: 800px;
+    padding: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.quote {
+    font-style: italic;
+    max-width:1000px;
+    display: flex;
+    font-size:30px;
+    justify-content: center;
+
+}
+
+.author{
+    max-width:800px;
+    font-size: 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+/*Section 4*/
+
+.section-four{
+    display: flex;
+    justify-content: center;
+    background-color: aliceblue;
+    height: 450px;
+    width: auto;
+    align-items: center;
+}
+
+.four-box{
+    gap:20px;
+    flex:1 1 0;
+    padding-left: 50px;
+    padding-right: 50px;
+
+    max-width: 1000px;
+    color:white;
+    display: flex;
+    align-self: center;
+    justify-content: space-between;
+    background-color: royalblue;
+    display: flex;
+    padding:50px;
+    border-radius: 16px;
+
+}
+
+.small-box {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.small-box .one {
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.four-box .signup2 {
+    font-size:large;
+    display: flex;
+    justify-content: center;
+    border-width: 2px;
+    color:aliceblue;
+    font-weight: bold;
+    border-color: aliceblue;
+    background-color: royalblue;
+    align-self:center;
+    border-radius: 8px;
+    padding-left: 25px;
+    padding-right: 25px;
+    cursor: pointer;
+    border-style: groove;
+}
+
+
+
+
+
+.footer{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: hsl(227, 37%, 19%);
+    color:white;
+}
+
+.text {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
